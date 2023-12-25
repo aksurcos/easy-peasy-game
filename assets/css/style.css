@@ -1,0 +1,14 @@
+
+#helpful-links {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+   
+}
+
+#helpful-links i {
+    font-size: 150%;
+    color: rgb(88, 34, 34);
+}
