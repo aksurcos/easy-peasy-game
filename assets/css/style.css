@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Coustard&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100&family=Josefin+Sans:ital,wght@0,200;0,300;1,100;1,200;1,300&family=Kanit:ital,wght@0,400;0,500;1,400&family=Noto+Sans+Linear+B&family=Oswald:wght@300&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 
+html {
+    background: linear-gradient(#ffffff, #da7154, #ffffff);    
+}
 
 h1 {
     text-align: center;
-    font-size: 300%;   
+    font-size: 250%;   
     color: rgb(16, 1, 1);
     text-shadow: 1px 2px #000000;    
     padding: 10px;
@@ -19,23 +22,24 @@ h1 {
 }
 
 
-#game {
-	margin:30px auto;
-	max-width:500px;
+#game-area {
+	margin: auto;
+	max-width:450px;
     min-height: 20vh;
-    font-family: "Coustard", serif;                   
+    font-family: "Coustard", serif;              
 	}
 			
-#game button {
-	border:none;
-	opacity:0.8;
-	width:18%;
-	font-size:60px;
+#game-area button {
+    font-size:57px;
 	cursor:pointer;
 	background:transparent;
+	border:none;
+	opacity:0.75;
+	width:19%;
+	
 	}
 			
-#game button:hover {
+#game-area button:hover {
     opacity:1;
 	}
 			
@@ -54,14 +58,14 @@ h1 {
 	clear:both;
 			}
 			
-.row{
-	float:left;
-	width:33.33%;
+.possibilities{	
 	text-align:center;
     font-size: x-large;
+    float:left;
+	width:33.33%;
 }
 			
-#result {
+#outcome {
 	font-size:20px;
 	margin:30px auto;
 	text-align:center;
@@ -83,7 +87,7 @@ main {
     text-align: center;    
 }
 
-footer {      
+footer {   
     bottom: 0px;
     left: 0px;
     width: 100%; 
@@ -91,7 +95,7 @@ footer {
 
 #helpful-links {
     text-align: center;
-    padding: 15px 0;
+    padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;   
