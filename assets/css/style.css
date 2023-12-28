@@ -1,25 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Coustard&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100&family=Josefin+Sans:ital,wght@0,200;0,300;1,100;1,200;1,300&family=Kanit:ital,wght@0,400;0,500;1,400&family=Noto+Sans+Linear+B&family=Oswald:wght@300&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+
 h1 {
     text-align: center;
-    font-size: 400%;
-    font-style: oblique;
+    font-size: 300%;   
     color: rgb(16, 1, 1);
-    text-shadow: 1px 2px #000000;
-    background-color: rgb(255, 0, 0);
-    padding: 50px;
+    text-shadow: 1px 2px #000000;    
+    padding: 10px;
     margin: 0;
+    font-weight: 300;
+    font-family: "Coustard", serif;    
+}
+
+#designed {
+    font-family: "Coustard", serif;
+    font-size: large;
+
 }
 
 
 #game {
-	margin:50px auto;
+	margin:30px auto;
 	max-width:500px;
-    min-height: 30vh;             
+    min-height: 20vh;
+    font-family: "Coustard", serif;                   
 	}
 			
 #game button {
 	border:none;
 	opacity:0.8;
-	width:20%;
+	width:18%;
 	font-size:60px;
 	cursor:pointer;
 	background:transparent;
@@ -34,6 +44,7 @@ h1 {
 	max-width:500px;
 	min-height:32px;
 	margin:5px auto;
+    font-family: "Coustard", serif;
 	}
 			
 #score:before,
@@ -47,42 +58,49 @@ h1 {
 	float:left;
 	width:33.33%;
 	text-align:center;
+    font-size: x-large;
 	}
 			
 #result {
-	font-size:30px;
-	margin:50px auto;
+	font-size:20px;
+	margin:30px auto;
 	text-align:center;
-	min-height:75px;
-    color:rgb(232, 6, 6);
+	min-height:60px;
+    color:rgb(10, 10, 10);
+    font-family: "Coustard", serif;
 	}
+
+body {
+    margin:0 auto;
+}
 
 /* To push footer down */
 main {    
                 
-    flex: 1 0 auto;
+    flex: 1 0 auto;    
                   
     }
-#designed{
-    background-image: linear-gradient(180deg, red, yellow);
-}
         
 #explaining {
     text-align: center;
 }
 
+footer {   
+    bottom: 0px;
+    left: 0px;
+    width: 100%; 
+}
+
 #helpful-links {
     text-align: center;
-    padding: 20px 0;
+    padding: 15px 0;
     display: flex;
     justify-content: space-evenly;
-    list-style-type: none;
-    background-color: yellow;
-   
+    list-style-type: none;   
 }
 
 #helpful-links i {
     font-size: 150%;
-    color: rgb(211, 5, 5);
+    color: rgb(22, 20, 20);
 }
 
